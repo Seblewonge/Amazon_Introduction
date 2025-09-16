@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import  MyCarousel  from './Components/Carousel/MyCarousel' 
 import Catagory from './Catagory/Catagory'
+import Product from './Components/Product/Product'
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
      <Header />  
 <MyCarousel/>
 <Catagory/>
+<Product/>
     </>
   )
 }
