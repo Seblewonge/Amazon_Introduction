@@ -3,19 +3,14 @@
 import './App.css'
 import Header from './Components/Header/Header'
 import  MyCarousel  from './Components/Carousel/MyCarousel' 
-import Catagory from './Catagory/Catagory'
+import Catagory from './Components/Catagory/Catagory'
 import Product from './Components/Product/Product'
-
+import Routing from './Router.jsx'
 function App() {
- 
-
-  return (
+return (
     <>
-      
-     <Header />  
-<MyCarousel/>
-<Catagory/>
-<Product/>
+      <Routing/>
+  
     </>
   )
 }
