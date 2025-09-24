@@ -115,8 +115,8 @@ const ProductCard = ({ product, flex, renderDesc, renderAdd }) => {
         <img src={image} alt="" className={classes.img_container} />
       </Link>
       <div>
-        <h3>{title}</h3>
-        {renderDesc && <div style={{ maxWidth: "750px" }}>{description}</div>}
+        <h5>{title}</h5>
+        {renderDesc && <div style={{ maxWidth: "650px" }}>{description}</div>}
         <div className={classes.rating}>
           <Rating value={rate} precision={0.5} readOnly />
           <small>({count})</small>

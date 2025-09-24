@@ -2,29 +2,25 @@ export const CatagoryaInfo = [
   {
     title: "Electronics",
     name: "electronics",
-    imgLink: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
-    //"https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
-    //   "https://www.shutterstock.com/image-illustration/tv-room-interior-mockup-blank-desk-2159064997",
-    //   "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_TV_2x_SY304_CB432517900_.jpg",
+    imgLink:
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_TV_2X._SY304_CB432517900_.jpg",
   },
   {
     title: " Discover fashion trends",
     name: "women's clothing",
-    imgLink: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
-
-    //   "https://www.shutterstock.com/image-photo/two-sexy-beautiful-woman-business-lady-1070148833",
+    imgLink:
+      "https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2023/March/mp_20230219_ff_desktopsinglecategory_desktop_379x304_1._SY304_CB612639847_.jpg",
   },
   {
     title: "Men's Clothing",
     name: "men's clothing",
-    imgLink: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
-    //   "https://www.shutterstock.com/image-photo/handsome-bearded-man-tattoos-hands-pockets-1272188944",
+    imgLink:
+      "https://m.media-amazon.com/images/I/618bcm65ksL._AC_UL488_FMwebp_QL65_.jpg",
   },
   {
     title: "Jewelery",
     name: "jewelery",
     imgLink:
-      "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
-    //   "https://www.shutterstock.com/image-photo/pink-silvery-necklace-isolated-on-white-51858988",
+      "https://m.media-amazon.com/images/I/71r7eWuCsaL._AC_UL480_FMwebp_QL65_.jpg",
   },
 ];

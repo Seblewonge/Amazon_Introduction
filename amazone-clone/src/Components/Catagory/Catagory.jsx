@@ -5,8 +5,9 @@ import classes from "./catagory.module.css";
 const Catagory = () => {
   return (
     <section className={classes.catagory__container}>
-      {CatagoryaInfo.map((infos, index) => (
-        <CatagoryCard key={index} data={infos} />
+      {CatagoryaInfo.map((infos ,index) => (
+        <CatagoryCard key={infos.id ||index} data={infos} />
+
       ))}
     </section>
   );

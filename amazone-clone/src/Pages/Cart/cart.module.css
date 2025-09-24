@@ -10,6 +10,27 @@ margin-left: 80px;
 width: 200px !important;
 justify-content: center;
 }
+.cart_product{
+display: flex;
+gap: 10px;
+}
+.bnt_container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.bnt{
+padding: 5px;
+font-weight: bold;
+cursor: pointer;
+background-color: #fff;
+border: none;
+}
+.bnt:hover svg{
+background-color: #febd69;
+}
 .container div:not(.subtotal){
 height: auto !important;
 }

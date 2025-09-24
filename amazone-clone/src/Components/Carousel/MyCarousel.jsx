@@ -5,7 +5,7 @@ import classes from './Carousel.module.css'
 
 const MyCarousel = () => {
   return (
-    <div>
+    <div className={classes.body}>
       <Carousel
 autoPlay={true}
 infiniteLoop = {true}
@@ -14,7 +14,8 @@ showThumbs = {false}
 >
 {
 img.map((imageItem)=>{
-return <img src={imageItem}/>
+return <img key={imageItem} src={imageItem}/>
+
 })
 }
 </Carousel>

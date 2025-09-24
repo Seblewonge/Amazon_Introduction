@@ -7,7 +7,7 @@ const CatagoryCard = ({data}) => {
     <div className={classes.catagory}>
       <Link to={`catagory/${data.name}`}>
         <span>
-          <h2>{data?.title}</h2>
+          <h4>{data?.title}</h4>
         </span>
         <img src={data?.imgLink} alt="" />
         <p>shop now</p>
