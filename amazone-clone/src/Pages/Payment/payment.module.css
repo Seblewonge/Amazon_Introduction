@@ -1,3 +1,7 @@
-body{
-padding-top: 90px; 
+.payment_header{
+padding-top: 130px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 24px;
+background-color: rgb(234, 237, 237);
 }
