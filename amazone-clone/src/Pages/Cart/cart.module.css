@@ -3,7 +3,7 @@
 justify-content: center;
   gap: 4px;
   margin-top: 60px;
-margin-left: 80px;
+margin-left: 60px;
 
 }
 .container img{
@@ -13,6 +13,7 @@ justify-content: center;
 .cart_product{
 display: flex;
 gap: 10px;
+padding-top: 0px;
 }
 .bnt_container{
 display: flex;
