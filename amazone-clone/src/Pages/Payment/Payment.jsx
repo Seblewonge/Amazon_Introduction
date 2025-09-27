@@ -9,9 +9,10 @@ import { axiosInstance } from "../../API/axios";
 import ClipLoader from "react-spinners/ClipLoader";
 import { db } from "../../Utility/firebase";
 import { useNavigate } from "react-router-dom";
+import { Type } from "../../Utility/actiontype";
 
 export const Payment = () => {
-  const { state } = useContext(DataContext);
+  const { state, dispatch } = useContext(DataContext);
   const { user, basket } = state;
 
   const totalItem = basket?.reduce((amount, item) => item.amount + amount, 0);
@@ -64,6 +65,8 @@ export const Payment = () => {
           amount: paymentIntent.amount,
           created: paymentIntent.created,
         });
+//empty basket
+dispatch({type:Type.EMPTY_BASKET});
       setProcessing(false);
       navigate("/orders",{state:{msg:"you have placed new Orders"}})
 
